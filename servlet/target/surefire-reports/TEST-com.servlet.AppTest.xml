@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.servlet.AppTest" time="0.022" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.servlet.AppTest" time="0.028" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/tpuser/m2/servlet-web/servlet/target/test-classes:/home/tpuser/m2/servlet-web/servlet/target/classes:/home/tpuser/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/tpuser/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/tpuser/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar:/home/tpuser/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar:/home/tpuser/.m2/repository/javax/javaee-web-api/8.0/javaee-web-api-8.0.jar:"/>
+    <property name="java.class.path" value="/home/tpuser/m2/servlet-web/servlet/target/test-classes:/home/tpuser/m2/servlet-web/servlet/target/classes:/home/tpuser/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/tpuser/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/tpuser/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar:/home/tpuser/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar:/home/tpuser/.m2/repository/javax/javaee-web-api/8.0/javaee-web-api-8.0.jar:/home/tpuser/.m2/repository/org/postgresql/postgresql/42.5.0/postgresql-42.5.0.jar:/home/tpuser/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:"/>
     <property name="java.vm.vendor" value="Ubuntu"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://ubuntu.com/"/>
@@ -16,9 +16,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="FR"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/tpuser/m2/servlet-web/servlet/target/surefire/surefirebooter10133911407552283250.jar /home/tpuser/m2/servlet-web/servlet/target/surefire 2022-10-17T13-09-12_516-jvmRun1 surefire13971179655264499230tmp surefire_09040976610220621557tmp"/>
+    <property name="sun.java.command" value="/home/tpuser/m2/servlet-web/servlet/target/surefire/surefirebooter5739761313689656721.jar /home/tpuser/m2/servlet-web/servlet/target/surefire 2022-10-19T14-05-13_727-jvmRun1 surefire15456240075594667755tmp surefire_010023765468255712161tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/tpuser/m2/servlet-web/servlet/target/test-classes:/home/tpuser/m2/servlet-web/servlet/target/classes:/home/tpuser/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/tpuser/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/tpuser/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar:/home/tpuser/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar:/home/tpuser/.m2/repository/javax/javaee-web-api/8.0/javaee-web-api-8.0.jar:"/>
+    <property name="surefire.test.class.path" value="/home/tpuser/m2/servlet-web/servlet/target/test-classes:/home/tpuser/m2/servlet-web/servlet/target/classes:/home/tpuser/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/tpuser/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/tpuser/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar:/home/tpuser/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar:/home/tpuser/.m2/repository/javax/javaee-web-api/8.0/javaee-web-api-8.0.jar:/home/tpuser/.m2/repository/org/postgresql/postgresql/42.5.0/postgresql-42.5.0.jar:/home/tpuser/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/tpuser"/>
     <property name="user.language" value="fr"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/tpuser/m2/servlet-web/servlet/target/surefire/surefirebooter10133911407552283250.jar"/>
+    <property name="surefire.real.class.path" value="/home/tpuser/m2/servlet-web/servlet/target/surefire/surefirebooter5739761313689656721.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.11+9-Ubuntu-0ubuntu2.20.04"/>
     <property name="user.name" value="tpuser"/>
